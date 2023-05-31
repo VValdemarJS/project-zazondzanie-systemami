@@ -1,0 +1,202 @@
+@charset "UTF-8";
+/*Обнуление*/
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+:focus, :active {
+  outline: none;
+}
+
+a:focus, a:active {
+  outline: none;
+}
+
+nav, footer, header, aside {
+  display: block;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+  font-size: 100%;
+  line-height: 1;
+  font-size: 14px;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+input, button, textarea {
+  font-family: inherit;
+}
+
+input::-ms-clear {
+  display: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+
+a, a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+ul li {
+  list-style: none;
+}
+
+img {
+  vertical-align: top;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-size: inherit;
+  font-weight: inherit;
+}
+
+/*--------------------*/
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+  font-family: inherit;
+  font-size: 100%;
+  font-style: inherit;
+  font-weight: inherit;
+}
+
+.slideout-menu {
+  display: none;
+}
+
+/*--------------------*/
+@font-face {
+  font-family: "colorfont";
+  font-style: normal;
+  font-weight: 500;
+  src: url("../content/fonts/Agreloycazure-BWLMn.ttf");
+}
+@font-face {
+  font-family: "seguili";
+  font-style: normal;
+  font-weight: 500;
+  src: url("../content/fonts/kozystane_teraz/seguili.ttf");
+}
+@font-face {
+  font-family: "seguibli";
+  font-style: normal;
+  font-weight: 500;
+  src: url("../content/fonts/kozystane_teraz/seguibli.ttf");
+}
+.btn {
+  border: 1px solid;
+  color: rgb(199, 86, 86);
+  padding: 5px 8px;
+  text-align: center;
+  font-size: 12px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.visible {
+  visibility: visible;
+}
+
+.invisible {
+  visibility: hidden;
+  width: 0%;
+  height: 0%;
+}
+
+.Zarządzaniem_lekami table {
+  margin: 5px;
+  border: 1px solid;
+  text-align: center;
+}
+.Zarządzaniem_lekami table tbody td {
+  border: 1px solid;
+}
+.Zarządzaniem_lekami table tbody td a img {
+  width: 10px;
+  height: 10px;
+}
+.Zarządzaniem_lekami table tbody tr:nth-child(odd) {
+  background-color: #f0eaee;
+}
+.Zarządzaniem_lekami table tbody tr:nth-child(even) {
+  background-color: #b9b6b6;
+}
+.Zarządzaniem_lekami table thead {
+  background-color: #b656b6;
+}
+.Zarządzaniem_lekami table thead tr th {
+  border: 2px solid;
+}
+.Zarządzaniem_lekami .add {
+  width: 30px;
+  text-align: center;
+  display: block;
+  border: 2px solid;
+  padding: 5px 10px;
+  margin: 5px 415px;
+  color: black;
+}
+
+h1 {
+  margin: 10px;
+  font-weight: bold;
+  font-size: 24px;
+}
+
+form {
+  margin: 20px;
+}
+form input {
+  border: 1px solid;
+}
+form input #Id #ID_paragon #pacjenta {
+  width: 100px;
+  height: 20px;
+}
+
+.leki table {
+  margin: 5px;
+  border: 1px solid;
+  text-align: center;
+}
+.leki table tbody td {
+  border: 1px solid;
+}
+.leki table tbody tr:nth-child(odd) {
+  background-color: #f0eaee;
+}
+.leki table tbody tr:nth-child(even) {
+  background-color: #b9b6b6;
+}
+.leki table thead {
+  background-color: #b656b6;
+}
+.leki table thead tr th {
+  border: 2px solid;
+}

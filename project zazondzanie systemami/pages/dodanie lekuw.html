@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style.css">
+    <title>dodanie lekuw</title>
+</head>
+<body>
+    <h1>dodanie lekuw :</h1>
+    <form action="">
+        <label for="Id">Id :</label>
+        <input type="text" id="Id" name="Id"><br/><br/>
+        <label for="pacjenta">pacjenta :</label>
+        <input type="text" id="pacjenta" name="pacjenta"><br/><br/>
+        <label for="ID paragon">ID paragon :</label>
+        <input type="text" id="ID_paragon" name="ID parago"><br/><br/>
+
+        <fieldset>
+            <legend>Status :</legend>
+    
+            <div>
+                <input type="radio" id="oplacono" name="oplacono/nie_oplacono" value="oplacono" checked>
+                <label for="oplacono">oplacono</label>
+            </div>
+            <div>
+                <input type="radio" id="nie_oplacono" name="oplacono/nie_oplacono" value="nie_oplacono">
+                <label for="nie_oplacono">nie oplacono</label>
+            </div>
+        </fieldset>
+        <br/>
+        <fieldset>
+            <legend>Kategoria :</legend>
+    
+            <div>
+                <input type="radio" id="Lekarstwo" name="Lekarstwo/usluga" value="Lekarstwo" checked>
+                <label for="Lekarstwo">Lekarstwo</label>
+            </div>
+            <div>
+                <input type="radio" id="usluga" name="Lekarstwo/usluga" value="usluga" >
+                <label for="usluga">usluga</label>
+            </div>
+        </fieldset>
+        <button name="zatwerdzic" type="button" class="btn">zatwerdzic</button>
+        <a href="../index.html">
+            <button name="wruc" type="button" class="btn">wruc</button>
+        </a>
+    </form>
+    
+</body>
+</html>

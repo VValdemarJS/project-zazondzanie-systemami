@@ -1,0 +1,112 @@
+.btn {
+    border: 1px solid;
+    color: rgb(199, 86, 86);
+    padding: 5px 8px;
+    text-align: center;
+    font-size: 12px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.visible{
+    visibility:visible;
+}
+
+.invisible{
+    visibility:hidden;
+    width: 0%;
+    height: 0%;
+}
+
+//--------------------------------index.html----------------------------------
+
+.Zarządzaniem_lekami{
+    table{
+        margin: 5px;
+        border: 1px solid;
+        text-align: center;
+        tbody{
+            td{
+                border: 1px solid;
+                a{
+                    img{
+                        width: 10px;
+                        height: 10px;
+                    }
+                }
+            }
+            tr:nth-child(odd) {
+                background-color: #f0eaee;
+            }
+            tr:nth-child(even) {
+                background-color: #b9b6b6;
+            }
+        }
+    
+        thead{
+            background-color: #b656b6;
+            tr{
+                th{
+                    border: 2px solid;
+                }
+            }
+        }
+    }
+
+    .add{
+        width: 30px;
+        text-align: center;
+        display:block;
+        border: 2px solid;
+        padding: 5px 10px;
+        margin: 5px 415px;
+        color: black;
+    }
+}
+
+//--------------------------------dodanie lekuw.html + redagowanie lekuw.html----------------------------------
+h1{
+    margin: 10px;
+    font-weight: bold;
+    font-size: 24px;
+}
+form{
+    margin: 20px;
+    input{
+        border: 1px solid;
+        #Id #ID_paragon #pacjenta{
+            width: 100px;
+            height: 20px; 
+         }
+    }
+}
+
+//--------------------------------leki.html----------------------------------
+
+.leki{
+    table{
+        margin: 5px;
+        border: 1px solid;
+        text-align: center;
+        tbody{
+            td{
+                border: 1px solid;
+            }
+            tr:nth-child(odd) {
+                background-color: #f0eaee;
+            }
+            tr:nth-child(even) {
+                background-color: #b9b6b6;
+            }
+        }
+    
+        thead{
+            background-color: #b656b6;
+            tr{
+                th{
+                    border: 2px solid;
+                }
+            }
+        }
+    }
+}
