@@ -1,9 +1,11 @@
 .btn {
+    width: 200px;
+    height: 50px;
     border: 1px solid;
     color: rgb(199, 86, 86);
     padding: 5px 8px;
     text-align: center;
-    font-size: 12px;
+    font-size: 20px;
     margin: 4px 2px;
     cursor: pointer;
 }
@@ -18,7 +20,7 @@
     height: 0%;
 }
 
-//--------------------------------index.html----------------------------------
+//--------------------------------Interfejs lekarza.html----------------------------------
 
 .Zarządzaniem_lekami{
     table{
@@ -59,8 +61,37 @@
         display:block;
         border: 2px solid;
         padding: 5px 10px;
-        margin: 5px 415px;
+        margin: 5px;
+        margin-left: 100%;
         color: black;
+    }
+}
+
+.Otrzymanie_potwierdzenie{
+    table{
+        margin: 5px;
+        border: 1px solid;
+        text-align: center;
+        tbody{
+            td{
+                border: 1px solid;
+            }
+            tr:nth-child(odd) {
+                background-color: #f0eaee;
+            }
+            tr:nth-child(even) {
+                background-color: #b9b6b6;
+            }
+        }
+    
+        thead{
+            background-color: #b656b6;
+            tr{
+                th{
+                    border: 2px solid;
+                }
+            }
+        }
     }
 }
 
@@ -68,8 +99,15 @@
 h1{
     margin: 10px;
     font-weight: bold;
+    font-size: 48px;
+}
+
+h2{
+    margin: 10px;
+    font-weight: bold;
     font-size: 24px;
 }
+
 form{
     margin: 20px;
     input{
