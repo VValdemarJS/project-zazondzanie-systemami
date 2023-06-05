@@ -110,13 +110,13 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
   src: url("../content/fonts/kozystane_teraz/seguibli.ttf");
 }
 .btn {
-  width: 200px;
+  min-width: 200px;
   height: 50px;
   border: 1px solid;
   color: rgb(199, 86, 86);
   padding: 5px 8px;
   text-align: center;
-  font-size: 20px;
+  font-size: 16px;
   margin: 4px 2px;
   cursor: pointer;
 }
@@ -232,5 +232,75 @@ form input #Id #ID_paragon #pacjenta {
   background-color: #b656b6;
 }
 .leki table thead tr th {
+  border: 2px solid;
+}
+
+.Interfejs_Pacjenta table {
+  margin: 5px;
+  border: 1px solid;
+  text-align: center;
+}
+.Interfejs_Pacjenta table tbody td {
+  border: 1px solid;
+}
+.Interfejs_Pacjenta table tbody tr:nth-child(odd) {
+  background-color: #f0eaee;
+}
+.Interfejs_Pacjenta table tbody tr:nth-child(even) {
+  background-color: #b9b6b6;
+}
+.Interfejs_Pacjenta table thead {
+  background-color: #b656b6;
+}
+.Interfejs_Pacjenta table thead tr th {
+  border: 2px solid;
+}
+
+.rejestracja table {
+  margin: 5px;
+  border: 1px solid;
+  text-align: center;
+}
+.rejestracja table tbody td {
+  border: 1px solid;
+}
+.rejestracja table tbody td a {
+  text-align: center;
+}
+.rejestracja table tbody td a img {
+  width: 20px;
+  height: 20px;
+}
+.rejestracja table tbody tr:nth-child(odd) {
+  background-color: #f0eaee;
+}
+.rejestracja table tbody tr:nth-child(even) {
+  background-color: #b9b6b6;
+}
+.rejestracja table thead {
+  background-color: #b656b6;
+}
+.rejestracja table thead tr th {
+  border: 2px solid;
+}
+
+.podtwerdzenie_oplaty_lekuw_uslug table {
+  margin: 5px;
+  border: 1px solid;
+  text-align: center;
+}
+.podtwerdzenie_oplaty_lekuw_uslug table tbody td {
+  border: 1px solid;
+}
+.podtwerdzenie_oplaty_lekuw_uslug table tbody tr:nth-child(odd) {
+  background-color: #f0eaee;
+}
+.podtwerdzenie_oplaty_lekuw_uslug table tbody tr:nth-child(even) {
+  background-color: #b9b6b6;
+}
+.podtwerdzenie_oplaty_lekuw_uslug table thead {
+  background-color: #b656b6;
+}
+.podtwerdzenie_oplaty_lekuw_uslug table thead tr th {
   border: 2px solid;
 }

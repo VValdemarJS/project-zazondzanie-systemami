@@ -1,0 +1,22 @@
+.btn {
+    min-width: 200px;
+    height: 50px;
+    border: 1px solid;
+    color: rgb(199, 86, 86);
+    padding: 5px 8px;
+    text-align: center;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+
+}
+
+.visible{
+    visibility:visible;
+}
+
+.invisible{
+    visibility:hidden;
+    width: 0%;
+    height: 0%;
+}

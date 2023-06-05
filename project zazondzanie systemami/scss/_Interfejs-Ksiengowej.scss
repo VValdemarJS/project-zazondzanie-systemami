@@ -1,0 +1,62 @@
+.rejestracja{
+    table{
+        margin: 5px;
+        border: 1px solid;
+        text-align: center;
+        tbody{
+            td{
+                border: 1px solid;
+                a{
+                    text-align: center;
+                    img{
+                        width: 20px;
+                        height: 20px;
+                    }
+                }
+            }
+            tr:nth-child(odd) {
+                background-color: #f0eaee;
+            }
+            tr:nth-child(even) {
+                background-color: #b9b6b6;
+            }
+        }
+    
+        thead{
+            background-color: #b656b6;
+            tr{
+                th{
+                    border: 2px solid;
+                }
+            }
+        }
+    }
+}
+
+.podtwerdzenie_oplaty_lekuw_uslug{
+    table{
+        margin: 5px;
+        border: 1px solid;
+        text-align: center;
+        tbody{
+            td{
+                border: 1px solid;
+            }
+            tr:nth-child(odd) {
+                background-color: #f0eaee;
+            }
+            tr:nth-child(even) {
+                background-color: #b9b6b6;
+            }
+        }
+    
+        thead{
+            background-color: #b656b6;
+            tr{
+                th{
+                    border: 2px solid;
+                }
+            }
+        }
+    }
+}
